@@ -1,4 +1,4 @@
-const restaurantModel = require('../models/restaurantModel');
+const restaurantModel = require('../models/restaurantmodel');
 const createRestaurentController = async (req,res) => {
     try{
         const {title,imageUrl,foods,time,pickup,delivery,isopen,logoUrl,rating,ratingCount,code,coords } = req.body;
